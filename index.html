@@ -19,7 +19,17 @@
 <body>
 
     <div class="container">
-        <header>
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <!-- /#line1.line -->
+            <div class="line" id="line2"></div>
+            <!-- /#line2.line -->
+            <div class="line" id="line3"></div>
+            <!-- /#line3.line -->
+            <span>Fechar</span>
+        </div>
+        <!-- /.hamburguer -->
+        <header id="page-header">
             <div class="img-wrapper">
                 <img src="./assets/images/bg.jpg" alt="background">
             </div>
@@ -27,10 +37,28 @@
                 <h1>Web Developer &amp; FrontEnd Designer</h1>
                 <p>Jerónimo Matavel Jr.</p>
                 <button>Saiba mais</button>
-            </div>
-            
+            </div>        
         </header>
+        <aside class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#page-header" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Conhecimentos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Projectos</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Contacto</a></li>
+                    <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </aside>
     </div>
+    <div style="height: 1000px;" class="space">
 
+    </div>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
