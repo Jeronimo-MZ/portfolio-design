@@ -412,7 +412,8 @@ section#projectos {
     transition:  .8s;
     border-radius: inherit;
 }
-.card:hover .card-info{
+.card:hover .card-info,
+.card:focus-within .card-info{
     opacity: 1;
     visibility: visible;
     bottom: 0;
